@@ -7,7 +7,7 @@ from dotenv import load_dotenv
 # Setup API key (replace with your own or use environment variables)
 # -------------------------
 load_dotenv()  # loads .env automatically
-api_key = os.getenv("OPENAI_API_KEY")
+api_key = "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"
 print(api_key)
 openai.api_key = api_key
 
